@@ -27,11 +27,11 @@ make remove #remove from /bin/
 ### Format support:
 > See [./src/magic.h](src/magic.h)
 
-- Images:		BMP, PNG, JPEG, QOI, GIF, TIFF, WEBP
-- Audio:		WAV, MP3, OGG, QOA, AIFF, MIDI, FLAC
-- Video:		MP4, AVI
-- Multimedia:	PDF, XCF, Blender, glTF, MD2
-- Fonts:		WOFF, WOFF2, OpenType
+- Images:		BMP, GIF, JPEG, PNG, QOI, TIFF, WebP
+- Audio:		AIFF, FLAC, WAV, MIDI, ogg, QOA, MP3
+- Video:		AVI, MP4
+- Multimedia:	Blender, FL Studio, glTF, docx, Photoshop, PDF, Quake MDL, Rich Text
+- Fonts:		OpenType, WOFF, WOFF2
 - Executables:	ELF, EXE, WebAssembly, Luac
 - Archives:		Tar, ZIP, GZIP, XZ, LZIP, 7-Zip, RAR, BZip, CPIO, PAK, .deb, .rpm
 - Binary Data:	qcow, ISO

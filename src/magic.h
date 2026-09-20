@@ -107,6 +107,8 @@ filetype_t magic_table [] = {
 	// Executable Formats
 	{	.name = "ELF Binary",
 		.magic = "\x7F" "ELF", .len = 4, .ext = "bin", .printer = elf_printer },
+	{	.name = "Windows Portable Executable (EXE)",
+		.magic = "MZPE\x00\x00", .len = 6, .ext = "exe" },
 	{	.name = "Java Class file",
 		.magic = "\xFE\xCA\xBE\xBA", .len = 4, .ext = "class" },
 	{	.name = "Lua Bytecode",
