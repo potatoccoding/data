@@ -1,5 +1,5 @@
 CC = gcc
-CCFLAGS = -O3 -Wextra -Wall -Werror
+CCFLAGS = -O2 -Wextra -Wall -Werror
 LDFLAGS = 
 OUTPUT = data
 CMAIN = src/main.c
