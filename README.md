@@ -1,6 +1,6 @@
 # Data
 ## Data is a lightweight replacement for file from coreutils.
-
+##WARNING: This project is no longer maintained
 ![demo](demo/demo.gif)
 
 ![GitHub Views](https://img.shields.io/github/watchers/unistd-h/data?label=Watchers&style=for-the-badge)
